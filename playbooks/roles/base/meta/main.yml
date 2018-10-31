@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Byron Nagi
+  description: Base packages for home debian server
+
+  # Some suggested licenses:
+  # - BSD (default)
+  # - MIT
+  # - GPLv2
+  # - GPLv3
+  # - Apache
+  # - CC-BY
+  license: MIT
+
+  min_ansible_version: 2.5
+
+  # platforms is a list of platforms, and each platform has a name and a list of versions.
+  #
+  platforms:
+   - name: Debian
+   - versions:
+      - stretch
+
+dependencies: []
